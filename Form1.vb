@@ -13,7 +13,7 @@
 
 
     Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        MsgBox("This is our version of Who wants to be a millionaire. There are 2  intsructions: " & vbNewLine _
+        MsgBox("This is our version of Who wants to be a millionaire. There are 2  instructions: " & vbNewLine _
             & "1) Read the Question" & vbNewLine & "2)Using your mouse, click on the answer you think is correct", vbOKOnly)
 
         questionongui(0) = "How many houses at BGS?"
